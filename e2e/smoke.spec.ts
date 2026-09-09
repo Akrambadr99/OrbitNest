@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 test('loads the shell and navigates with accessible controls', async ({ page }) => {
   await page.goto('/')
 
-  await expect(page).toHaveTitle('Flowvia')
+  await expect(page).toHaveTitle('OrbitNest')
   await expect(
     page.getByRole('heading', { level: 1, name: 'Dashboard' }),
   ).toBeVisible()
@@ -717,7 +717,7 @@ test('reviews the protected governance audit report', async ({ page }) => {
   )
   await expect(page.getByRole('link', { name: 'Export this page' })).toHaveAttribute(
     'download',
-    'flowvia-audit-page-1.csv',
+    'orbitnest-audit-page-1.csv',
   )
 })
 

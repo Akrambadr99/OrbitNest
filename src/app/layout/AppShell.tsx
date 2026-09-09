@@ -35,7 +35,7 @@ export function AppShell() {
         <p className="page-eyebrow">Session security</p>
         <h1>Workspace access changed</h1>
         <p>
-          Your membership is no longer active. Flowvia removed workspace data
+          Your membership is no longer active. OrbitNest removed workspace data
           from the active view.
         </p>
         <button
@@ -57,7 +57,7 @@ export function AppShell() {
         <p className="page-eyebrow">Session security</p>
         <h1>Permissions could not be verified</h1>
         <p>
-          Flowvia removed workspace data from this view until your access can
+          OrbitNest removed workspace data from this view until your access can
           be confirmed.
         </p>
         <button
@@ -80,11 +80,11 @@ export function AppShell() {
       </a>
 
       <aside className="app-sidebar">
-        <Link className="app-brand" to="/" aria-label="Flowvia dashboard">
+        <Link className="app-brand" to="/" aria-label="OrbitNest dashboard">
           <span className="app-brand__mark" aria-hidden="true">
-            FV
+            ON
           </span>
-          <span>Flowvia</span>
+          <span>OrbitNest</span>
         </Link>
 
         <PrimaryNavigation />
@@ -111,7 +111,7 @@ export function AppShell() {
         <header className="app-topbar">
           <div>
             <p className="app-topbar__label">A clear path forward</p>
-            <p className="app-topbar__name">Flowvia Workspace</p>
+            <p className="app-topbar__name">OrbitNest Workspace</p>
           </div>
           <GlobalSearch />
           <NotificationCenter />

@@ -76,7 +76,7 @@ describe('GovernancePage', () => {
     ).toHaveValue('fixture-bootstrap-001')
 
     const exportLink = screen.getByRole('link', { name: 'Export this page' })
-    expect(exportLink).toHaveAttribute('download', 'flowvia-audit-page-1.csv')
+    expect(exportLink).toHaveAttribute('download', 'orbitnest-audit-page-1.csv')
     expect(decodeURIComponent(exportLink.getAttribute('href') ?? '')).toContain(
       '"occurredAt","action","actor","outcome","entityId","requestId"',
     )

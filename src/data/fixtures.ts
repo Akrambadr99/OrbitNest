@@ -19,7 +19,7 @@ export function createAtlasFixtures(
 
   const workspace = {
     id: ids.workspace('operations'),
-    name: 'Flowvia Workspace',
+    name: 'OrbitNest Workspace',
     slug: 'atlas-operations',
     createdAt,
   }
